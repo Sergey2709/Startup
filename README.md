@@ -2,7 +2,9 @@
 
 
 
-[Site link](https://sergey2709.github.io/Startup/)**Layout’s breakpoint – 1400px**
+[Site link](https://sergey2709.github.io/Startup/)
+
+**Layout’s breakpoint – 1400px**
 
 The tech stack is:
 
