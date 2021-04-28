@@ -108,8 +108,6 @@
 
     @include for-large-up {
       margin-top: 0;
-      // text-align: left;
-      // padding-left: 15px;
     }
 
     &::placeholder {
@@ -125,7 +123,6 @@
       margin-top: 0;
       margin-left: 10px;
       max-width: 160px;
-      // padding: 0;
     }
   }
 
