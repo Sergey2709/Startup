@@ -2,7 +2,7 @@
 
 
 
-[Site link](https://sergey2709.github.io/Startup/)
+[Site link](https://sergey2709.github.io/startup/)
 
 **Layout’s breakpoint – 1400px**
 
