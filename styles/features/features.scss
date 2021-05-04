@@ -1,0 +1,35 @@
+.features {
+  max-height: 2728px;
+  width: 100vw;
+  padding: 48px 15px 50px 15px;
+
+  @include for-large-up {
+    width: 1400px;
+    height: 700px;
+    padding: 0;
+    margin-top: 106px;
+    position: relative;
+  }
+
+  &__icon {
+    display: none;
+
+    @include for-large-up {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 258px;
+    }
+  }
+
+  &__screen {
+    display: none;
+
+    @include for-large-up {
+      display: inline-block;
+      height: 597px;
+      position: absolute;
+      right: 0;
+    }
+  }
+}

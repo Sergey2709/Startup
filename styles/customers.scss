@@ -1,0 +1,111 @@
+.customers {
+  width: 321px;
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    width: 1140px;
+    height: 75px;
+    margin: 30px 130px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 94px;
+    background: #ffffff;
+    box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
+
+    @include for-large-up {
+      height: auto;
+      // width: auto;
+      box-shadow: none;
+      // justify-content: space-between;
+    }
+
+    &-nyt {
+      max-width: 77px;
+      max-height: 55px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 105px;
+        max-height: 75px;
+      }
+    }
+
+    &-forbes {
+      max-width: 78px;
+      max-height: 21px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 110px;
+        max-height: 30px;
+      }
+    }
+
+    &-apple {
+      max-width: 35px;
+      max-height: 40px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 43px;
+        max-height: 50px;
+      }
+    }
+
+    &-mashable {
+      max-width: 77px;
+      max-height: 13px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 153px;
+        max-height: 26px;
+      }
+    }
+
+    &-wsj {
+      max-width: 49px;
+      max-height: 28px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 76px;
+        max-height: 43px;
+      }
+    }
+
+    &-google {
+      max-width: 75px;
+      max-height: 25px;
+      filter: brightness(0);
+
+      @include for-large-up {
+        max-width: 126px;
+        max-height: 41px;
+      }
+    }
+  }
+
+  &__between-line {
+    width: 321px;
+    margin: 0;
+    height: 1px;
+    border: none;
+    background: #e3e3e3;
+
+    @include for-large-up {
+      display: none;
+    }
+  }
+}

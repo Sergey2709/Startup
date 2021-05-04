@@ -13,6 +13,7 @@
 
   &__content {
     margin: 35px 15px 33px 15px;
+    max-width: 555px;
 
     @include for-large-up {
       position: absolute;
@@ -87,7 +88,6 @@
   }
 
   &__banner {
-    width: 100%;
     height: 180px;
 
     @include for-large-up {
